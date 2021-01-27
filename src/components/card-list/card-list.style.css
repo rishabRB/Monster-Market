@@ -1,0 +1,27 @@
+.card-list{
+   width: 85vw;
+   margin: 0 auto;
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr;
+   grid-gap:20px;
+   
+
+}
+
+.container-card{
+   display: flex;
+   flex-direction: column;
+   background-color: #95dada;
+   border: 1px solid gray;
+   border-radius: 5px;
+   padding: 25px;
+   cursor: pointer;
+   -moz-osx-font-smoothing:grayscale;
+   backface-visibility: hidden;
+   transform:translateZ(0);
+   transition:trasform 0.25 ease-out;
+   
+}
+.container-card:hover{
+    transition: tranform 1px;
+}
